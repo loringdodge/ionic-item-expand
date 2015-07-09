@@ -36,7 +36,10 @@
             <h2>{{ group.title }}</h2>
             <p>{{ group.text }}</p>
           </div>
-          <div ng-click="toggleGroup(group)" class="expand-group"><i ng-class="isGroupShown(group) ? 'ion-ios-minus-outline' : 'ion-ios-plus-outline'"></i>More</div>
+          <div ng-click="toggleGroup(group)" class="expand-group">
+            <i ng-class="isGroupShown(group) ? 'ion-ios-minus-outline' : 'ion-ios-plus-outline'"></i>
+            {{ isGroupShown(group) ? 'Less' : 'More' }}
+          </div>
         </ion-item>
 
       </ion-list>
