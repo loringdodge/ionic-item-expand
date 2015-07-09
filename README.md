@@ -1,18 +1,15 @@
 Ionic Item Expand
 ===================
 
-Nifty Modal is a set of additional CSS classes to be used to animate your ionic modal box. Out of the box, ionic provides one CSS class ('slide-in-up') as the default behavior of the modal.
-The set of included classes are sourced from [Nifty Modal](https://github.com/codrops/ModalWindowEffects) and [bounce.js](https://github.com/tictail/bounce.js).
-The animations are not just limited to the modal and can be reused for other components in your application.
+This is an example of how to implement an expandable ion-list item, triggered by a click event.
+The example is templated from the [Ionic Accordion](http://codepen.io/ionic/pen/uJkCz) codepen example.
+For a complete out-of-the-box working example, check out the 'demo' link below.
 
 [Demo](http://codepen.io/loringdodge/pen/zGWLQm)
 
 ![Screenshot](screenshots/iphone.png)
 
-## Install
 
-1. Bower install instructions coming.
-2. Include 'nifty.modal.css' in your index.html.
 
 
 
