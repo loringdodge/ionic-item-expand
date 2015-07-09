@@ -7,7 +7,7 @@ For a complete out-of-the-box working example, check out the 'demo' link below.
 
 [Demo](http://codepen.io/loringdodge/pen/zGWLQm)
 
-![Screenshot](screenshots/iphone.png)
+![Screenshot](screenshots/iphone1.png)
 
 
 
