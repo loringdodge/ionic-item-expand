@@ -31,14 +31,14 @@
 
       <ion-list>
 
-        <ion-item ng-repeat="group in groups" class="item item-text-wrap">
-          <div ng-class="isGroupShown(group) ? 'item-expand active' : 'item-expand'">
-            <h2>{{ group.title }}</h2>
-            <p>{{ group.text }}</p>
+        <ion-item ng-repeat="item in items" class="item item-text-wrap">
+          <div ng-class="isItemShown(item) ? 'item-expand active' : 'item-expand inactive'">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.text }}</p>
           </div>
-          <div ng-click="toggleGroup(group)" class="expand-group">
-            <i ng-class="isGroupShown(group) ? 'ion-ios-minus-outline' : 'ion-ios-plus-outline'"></i>
-            {{ isGroupShown(group) ? 'Less' : 'More' }}
+          <div ng-click="toggleItem(item)" class="expand-item">
+            <i ng-class="isItemShown(item) ? 'ion-ios-minus-outline' : 'ion-ios-plus-outline'"></i>
+            {{ isGroupShown(item) ? 'Less' : 'More' }}
           </div>
         </ion-item>
 

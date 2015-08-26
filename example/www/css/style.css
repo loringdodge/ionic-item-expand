@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 
-.item-expand:after {
+.item-expand.inactive:after {
   content: "";
   position: absolute;
   bottom: 0px;
@@ -41,11 +41,11 @@ body {
 
 
 /* DEMO */
-.expand-group {
+.expand-item {
   color: red;
   margin-top: 10px;
 }
 
-.expand-group i {
+.expand-item i {
   margin-right: 10px;
 }
