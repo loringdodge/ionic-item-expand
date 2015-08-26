@@ -19,8 +19,8 @@ angular.module('ionicApp', ['ionic'])
   }];
 
   /*
-   * if given group is the selected group, deselect it
-   * else, select the given group
+   * if given item is the selected item, deselect it
+   * else, select the given item
    */
   $scope.toggleItem= function(item) {
     if ($scope.isItemShown(item)) {
