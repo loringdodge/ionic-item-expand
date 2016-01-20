@@ -38,7 +38,7 @@
           </div>
           <div ng-click="toggleItem(item)" class="expand-item">
             <i ng-class="isItemShown(item) ? 'ion-ios-minus-outline' : 'ion-ios-plus-outline'"></i>
-            {{ isGroupShown(item) ? 'Less' : 'More' }}
+            {{ isItemShown(item) ? 'Less' : 'More' }}
           </div>
         </ion-item>
 
